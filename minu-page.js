@@ -1,8 +1,8 @@
-window.d = 5000;
+window.d = 7000;
 
 var myFullpage = new fullpage("#fullpage", {
   lockAnchors: true,
-  scrollingSpeed: 400,
+  scrollingSpeed: 450,
   afterRender: () => {
     setInterval(() => {
       if (myFullpage.getActiveSection().isLast) myFullpage.moveTo(1);
