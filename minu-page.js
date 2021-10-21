@@ -1,4 +1,4 @@
-window.d = 5000;
+window.d = 6000;
 
 var myFullpage = new fullpage("#fullpage", {
   lockAnchors: true,
