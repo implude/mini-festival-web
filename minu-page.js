@@ -5,7 +5,7 @@ var myFullpage = new fullpage("#fullpage", {
   scrollingSpeed: 600,
   afterRender: () => {
     setInterval(() => {
-      if (myFullpage.getActiveSection().isLast) myFullpage.moveTo(1);
+      if (myFullpage.getActiveSection().isLast) myFullpage.moveTo(0);
       myFullpage.moveSectionDown();
     }, window.d);
   },
